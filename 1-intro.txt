@@ -1,0 +1,8 @@
+GraphQL --> solves:
+	1 - data over fetching  (GET  /courses)
+		--> only {id, title, imageThumbnail} needed forEach courseObject.
+		--> but, it may contain author details and other unneeded data.
+	2 - data under fetching  (GET  /courses/123) 
+		--> may Not contain all author's data
+
+>> It can unify multiple REST APIs || multiple subGraphs
